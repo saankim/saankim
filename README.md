@@ -1,4 +1,8 @@
-### Hi there 👋
+Software, Sungkyunkwan Univ.
+- Graph Data Analysis
+- Deep Learning
+- Golang
+- Chemistry
 
 <!--
 **saankim/saankim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
