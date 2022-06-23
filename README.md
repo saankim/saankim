@@ -1,4 +1,5 @@
-Software, Sungkyunkwan Univ.
+# Software, Sungkyunkwan Univ
+
 - Graph Data Analysis
 - Deep Learning
 - Golang
