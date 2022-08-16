@@ -1,5 +1,3 @@
-# Saankim
-
 # [Blog](https://github.com/saankim/saankim/wiki)
 
 - Graph Data Analysis
