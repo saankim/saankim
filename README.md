@@ -5,4 +5,4 @@
 - Golang
 - Chemistry
 
-$ \bra{ket} $
+$\bra{ket}$
