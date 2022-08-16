@@ -1,8 +1,8 @@
-# [Blog](https://github.com/saankim/saankim/wiki)
+# [Blog](https://saan.kim)
 
 - Graph Data Analysis
 - Deep Learning
+- Python
 - Golang
 - Chemistry
-
-$\bra{ket}$
+- Bayesian Optimization
