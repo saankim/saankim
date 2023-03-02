@@ -4,4 +4,4 @@
 - Golang
 - Chemistry
 - Bayesian Optimization
- $\mathrm{x}_i$
+$$\mathrm{x}_i$$
