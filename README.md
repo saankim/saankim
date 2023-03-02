@@ -4,4 +4,3 @@
 - Golang
 - Chemistry
 - Bayesian Optimization
-$$\mathrm{x}_i$$
