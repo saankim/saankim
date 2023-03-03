@@ -5,4 +5,3 @@
 - Chemistry
 - Bayesian Optimization
 - [🪸](https://github.com/saankim/saankim/wiki)
-- 
