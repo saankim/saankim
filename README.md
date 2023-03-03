@@ -5,3 +5,4 @@
 - Chemistry
 - Bayesian Optimization
 - [github wiki](https://github.com/saankim/saankim/wiki)
+- [$\sin x$](https://github.com/saankim/saankim/wiki)
