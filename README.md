@@ -1,12 +1,4 @@
----
-title: "Jekyll Github 블로그에 MathJax로 수학식 표시하기"
-tags:
-  - Blog
-  - MathJax
-  - Jekyll
-  - LaTeX
-use_math: true
----
+# saan.kim
 
 <script
 src="https://polyfill.io/v3/polyfill.min.js?features=es6">
@@ -24,7 +16,6 @@ id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mm
 - [🪸](https://github.com/saankim/saankim/wiki)
 
 $$\mathcal{G} = \{\mathcal{V}, \mathcal{E}\}$$
-
 
 $$
 \lim_{x\to 0}{\frac{e^x-1}{2x}}
