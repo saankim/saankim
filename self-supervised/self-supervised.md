@@ -6,7 +6,7 @@
 - 비지도학습: 분명한 라벨과 에러 없이 학습
 - 자가지도학습: 지도학습과 비지도학습의 중간 정도의 방법.
 
-이러한 정의는 아주 당연한 의문을 불러일으킨다. 일반적인 순전파신경망(feed-forward neural network)에서 [[../../idea/learning-algorithms/learning-algorithms|역전파]] 알고리즘은 에러를 weight로 편미분한 값을 출력층부터 입력층까지 전달해 weight 업데이트, 곧 학습을 진행한다. 그런데 label이 없다면 무엇을 기준으로 error를 만들고 BP를 진행해서 weight를 업데이트하고 학습을 달성할수 있다는걸까?
+이러한 정의는 아주 당연한 의문을 불러일으킨다. 일반적인 순전파신경망(feed-forward neural network)에서 역전파 알고리즘은 에러를 weight로 편미분한 값을 출력층부터 입력층까지 전달해 weight 업데이트, 곧 학습을 진행한다. 그런데 label이 없다면 무엇을 기준으로 error를 만들고 BP를 진행해서 weight를 업데이트하고 학습을 달성할수 있다는걸까?
 
 
 # 지도는 어디에서 일어나는가
@@ -46,7 +46,7 @@ But how??
 self-supervised learning은 미묘하게 시간이나 정보의 위계에 대한 묘사를 포함하고 있는 것으로 보인다. 최초의 train/inference 과정에서도 error/reward를 얻어낼 수 있는 지도학습 알고리즘과 달리, self-supervised learning 과정에서는 시간에 따라 계속해서 입력되는 데이터를 stochastic하게 inference해서, higher hierarchy에 있는 data structure를 모델에 학습시키는 과정이기도 하기 때문이다.
 
 
-자가지도학습이 데이터의 분포를 학습하기 때문에, 데이터 분포에 대한 self-supervised-error의 공간을 상상할 수 있다. 이 공간에서 error를 energy로 보면, self-supervised learning 과정을 [[Energy based models|energy optimization 과정]]으로도 볼 수 있다.
+자가지도학습이 데이터의 분포를 학습하기 때문에, 데이터 분포에 대한 self-supervised-error의 공간을 상상할 수 있다. 이 공간에서 error를 energy로 보면, self-supervised learning 과정을 energy optimization 과정으로도 볼 수 있다.
 
 
 # References

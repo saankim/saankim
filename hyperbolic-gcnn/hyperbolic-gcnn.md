@@ -1,5 +1,5 @@
 # Hyperbolic GCNN
-Hyperbolic Graph Convolutional Neural Networks #Neural_Network/Graph
+Hyperbolic Graph Convolutional Neural Networks
 - NeurIPS 2019
 - 302 Citations in Google Scholar
 - 저자
@@ -171,4 +171,3 @@ community structure 가 분명한 곳에서 기존보다 더 뛰어난 성능을
 
 
 ## Conclusion
-#TODO 

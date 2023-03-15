@@ -42,14 +42,14 @@ Contrasive: prediction in the latent space
 
 # ResNet
 Residual connection(skip connection)으로 gradient descent 문제를 일부 해결해서 깊은 NN을 만들 수 있었다.
-![[resnet.png]]
+![](resnet.png)
 
 # CNN
 Spatial inductive bias를 가지고 있는 convolution filter를 이용해서 image recognition 분야에서 성능을 끌어올릴 수 있었다.
 
 
 ## Mask RCNN
-![[rcnn.png]]
+![](rcnn.png)
 CNN을 거쳐서 나올 feature map에 mask를 씌워서 segmentation.
 
 
@@ -67,7 +67,7 @@ ViT: Vision Transformer
 
 Generative models
 variational autoencoder
-![[gan.png]]
+![](gan.png)
 - 본래의 분포를 따르기: 원래의 오토인코더
 - 그런데 각각의 분포가 가우시안 분포하면 좋겠어
 	- 이 덕분에 representation이 latent space 위에서 랜덤하게 퍼져있는게 아니라, 가우시안하지만 최소한의 overlap만 가지도록 해서 빽빽하게 채워지게 된다.
@@ -78,7 +78,7 @@ variational autoencoder
 
 GAN은, 비슷한 구조를 가진다.
 그런데 input으로 노이즈 Z를 주고, 이거에서 fake x를 뽑는데, 이 fake x를 discriminator가 real fake 구분하기 어렵게 자꾸 학습한다. 
-![[vae and gan.png]]
+![](vae and gan.png)
 
 
 Dreamer2
@@ -90,11 +90,11 @@ tranductive learning으로 인과관계를 인코딩 가능
 
 
 Contrasive learning
-![[contrastive learning.png]]
+![](contrastive learning.png)
 
 
 총정리
-![[landscaping.png]]
+![](landscaping.png)
 
 
 missing

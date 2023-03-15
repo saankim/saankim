@@ -1,22 +1,22 @@
 # Bayesian optimization
 # 베이지안 최적화
-베이지안 최적화는 [[../bayesian-theorem/bayesian-theorem|베이즈 정리]]를 바탕으로 글로벌 최적화를 위한 Sequential optimization하는 알고리즘이다. 베이지안 최적화를 통해 풀 수 있는 문제를 수식으로 표현하면 $\max_{x \in A} f(x)$ 와 같다. 보통 20차원 이하의 차원에 대해서 잘 동작하며, 이 이상의 차원에 대해서는 Curse of dimensionality를 겪게 된다. 베이지안 최적화 과정에서 차원의 저주는 가우시안 프로세스에서 correlation 계산시 고차원의 점들간의 correlation이 비슷해지는 문제에서 기인한다.
+베이지안 최적화는 베이즈 정리를 바탕으로 글로벌 최적화를 위한 Sequential optimization하는 알고리즘이다. 베이지안 최적화를 통해 풀 수 있는 문제를 수식으로 표현하면 $\max_{x \in A} f(x)$ 와 같다. 보통 20차원 이하의 차원에 대해서 잘 동작하며, 이 이상의 차원에 대해서는 Curse of dimensionality를 겪게 된다. 베이지안 최적화 과정에서 차원의 저주는 가우시안 프로세스에서 correlation 계산시 고차원의 점들간의 correlation이 비슷해지는 문제에서 기인한다.
 
 
 ## 알고리즘
 ![베이지안 최적화 과정 그림](https://upload.wikimedia.org/wikipedia/commons/0/02/GpParBayesAnimationSmall.gif)
 1. 아무 function으로 회귀
    앞으로 이 함수를 posterior function이라 부르겠음.
-   이 이름은 [[../bayesian-theorem/bayesian-theorem|베이지안 법칙]]으로 부터 오는 이름.
+   이 이름은 베이지안 법칙으로 부터 오는 이름.
 2. 회귀한 function으로부터, 기대값이 최고인 정의역벡터 $\mathrm{x}$를 구함
 3. 해당 정의역벡터를 입력으로 하는 실험을 진행해서, $f_{true}(\mathrm{x}) = \mathrm{y}$ 를 구함
 4. $\mathrm{(x, y)}$를 추가해 회귀한 posterior에 대해 반복
 	1. 추가해 회귀할때 correlation function과 커널에 따라 이웃한 점들의 posterior를 새 데이터를 prior로 보고 베이지안 법칙에 따라 계산하게 됨.
-이 과정에서, posterior function으로 보통 [[10. Gaussian process 이론과 구현|가우시안 프로세스]]회귀 를 사용한다. 특별히, 가우시안 프로세스 회귀를 surrogate model로 사용한 베이지안 최적화 과정을 Kriging이라고도 한다.
+이 과정에서, posterior function으로 보통 가우시안 프로세스회귀 를 사용한다. 특별히, 가우시안 프로세스 회귀를 surrogate model로 사용한 베이지안 최적화 과정을 Kriging이라고도 한다.
 
 
 ## 일반적인 구현
-가장 일반적인 형태의 베이지안 최적화 구현은 [[10. Gaussian process 이론과 구현|가우시안 프로세스]]에 acquisition function이 추가된 형태를 가지고 있다. 
+가장 일반적인 형태의 베이지안 최적화 구현은 가우시안 프로세스에 acquisition function이 추가된 형태를 가지고 있다. 
 
 
 ### Acquisition function
@@ -34,7 +34,6 @@ Acquisition function은 베이지안 최적화 과정에 따라 가정된 poster
 
 
 ## 베이즈 정리와의 연관성
-[[../bayesian-theorem/bayesian-theorem|베이즈 정리]]
 베이지안 최적화 과정을 posterior distribution을 prior $\mathrm{(x,y)}$가 추가됨에 따라 업데이트 해 나가는 과정으로 해석한다면, prior를 통해 posterior를 계산할 수 있는 베이즈 정리로부터 유도될 수 있음을 알 수 있다.
 - 베이즈 정리
 	- 주어진 값: prior
@@ -45,7 +44,7 @@ Acquisition function은 베이지안 최적화 과정에 따라 가정된 poster
 
 
 ### 무모수 모델인가?
-베이즈 정리와의 연관성을 바탕으로 베이지안 최적화를 무모수 모델로 생각할 수 있다. 결론부터 말하자면 베이지안 최적화 과정은 무모수 모델이 맞다. 하지만 베이지안 최적화 과정에서 posterior 함수로 흔히 사용하는 [[10. Gaussian process 이론과 구현|GP]] regressor는 hierarchy prior를 사용하지 않으면, mean function에서 모수추정을 하고 있기 때문에 베이지안 최적화 모델 전체가 무모수 모델이라 볼 수는 없다.
+베이즈 정리와의 연관성을 바탕으로 베이지안 최적화를 무모수 모델로 생각할 수 있다. 결론부터 말하자면 베이지안 최적화 과정은 무모수 모델이 맞다. 하지만 베이지안 최적화 과정에서 posterior 함수로 흔히 사용하는 GP regressor는 hierarchy prior를 사용하지 않으면, mean function에서 모수추정을 하고 있기 때문에 베이지안 최적화 모델 전체가 무모수 모델이라 볼 수는 없다.
 
 
 #### 무모수 모델이 되는 법
@@ -53,7 +52,7 @@ Acquisition function은 베이지안 최적화 과정에 따라 가정된 poster
 
 
 ##### GP에서 hierarchy prior를 사용하는 방법
-GP mean function에서 가정하는 모수추정모델을 두지 않을 수 있는 방법이다. Hierarchy prior로 prior를 chainging 한 후 mean function 선정에 관여하는 hyperparameter(mean function polynomial의 계수 등)에 대해 정리하면 mean function과 그 파라미터를 error(robustness) $\epsilon$에 대한 함수로 둘 수 있다. [[10. Gaussian process 이론과 구현]] 항목을 참고하자.
+GP mean function에서 가정하는 모수추정모델을 두지 않을 수 있는 방법이다. Hierarchy prior로 prior를 chainging 한 후 mean function 선정에 관여하는 hyperparameter(mean function polynomial의 계수 등)에 대해 정리하면 mean function과 그 파라미터를 error(robustness) $\epsilon$에 대한 함수로 둘 수 있다.
 
 
 ##### RBF 커널과 중심극한정리를 이용한 방법

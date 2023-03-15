@@ -15,8 +15,6 @@
 ## Supervised vs. Unsupervised vs. Self-supervised
 뇌가 학습을 하는 과정에서 각각의 경우에 대해 explicit reward(negative errror)가 바로 주어지지는 않는다. 따라서 뇌의 학습기제는 비지도학습에 가까울 것이라는게 현재의 컨센서스다. 다만, 현대 들어서는 self-supervised 방식일 것으로 기대하는 접근들도 많다.
 
-참고: [[../self-supervised/self-supervised|unsupervised와 self-supervised는 구체적으로 어떻게 다를까?]]
-
 
 ## Discriminative(classification) vs. Generative
 - Discriminative 모델은 boundary를 학습해서 입력 데이터를 분류한다.
@@ -32,7 +30,7 @@
 
 ## Model-free vs. Model-based
 강화학습 관점에서, 환경의 transition을 직접 예측할 수 있는 방법을 가지고 있으면 model-based로 볼 수 있다. 특히 RL관점에서는 아래 그림처럼 분류할 수 있다. 주의할 점은 policy는 model이 아니라는 점이다. policy가 아니라 환경에 대한 simulative model을 가지고 있느냐로 구분해야 한다.
-![[RL categories.png]]
+![](RL categories.png)
 
 
 ## Exploitation(pragmatic) vs. Exploration(epistemic)
@@ -40,9 +38,9 @@
 
 
 ## Nature(inductive bias) vs. Nuture(inference and learning)
-뇌과학 분야에서는 피아제의 발달 5단계를 비롯한 개념들로 연구되어 왔다. 인공지능 분야에서는 [[De-biased 머신러닝이란?|inductive bias]]라는 표현이 흔히 사용된다.
+뇌과학 분야에서는 피아제의 발달 5단계를 비롯한 개념들로 연구되어 왔다. 인공지능 분야에서는 inductive bias라는 표현이 흔히 사용된다.
 
-참고자료 #TODO 
+참고자료
 - [Building Machines That Learn and Think Like People](https://arxiv.org/pdf/1604.00289.pdf)
 - [Towards developmental AI](https://www.youtube.com/watch?v=s9EeozO6fp8)
 

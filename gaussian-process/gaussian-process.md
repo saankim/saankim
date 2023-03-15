@@ -4,7 +4,7 @@
 # Gaussian process 이론
 가우시안 프로세스는 입력 값과 출력 값 분포의 gaussian한 무작위성을 고려한 확률분포 생성 프로세스다. 확률론의 배경이 있기 때문에 이를 확률분포 생성 모델로 보지만, Machine learning 측면에서 이를 Regression모델로 볼 수 도 있다.
 
- ![[Gaussian process.png]]
+ ![](Gaussian process.png)
 
 
 ## 설명
@@ -14,8 +14,6 @@ $$p(x, y) \sim \mathcal{N}\left(\left[\begin{array}{l}\mu_x \\ \mu_y\end{array}\
 
 가우시안 프로세스는 mean function $m(t)$와 커널-covariance matrix를 생성하기 위한-의 조합으로 표현할 수 있다.
 
-#HEAD 
-
 
 # 구현
 
@@ -23,4 +21,3 @@ $$p(x, y) \sim \mathcal{N}\left(\left[\begin{array}{l}\mu_x \\ \mu_y\end{array}\
 # References
 - https://greeksharifa.github.io/bayesian_statistics/2020/07/12/Gaussian-Process/
 - https://github.com/ShuaiGuo16/Gaussian-Process/blob/master/GP_cheatsheet.pdf
-- [[paper/GP in ML.pdf|GP in ML.pdf]]xnl

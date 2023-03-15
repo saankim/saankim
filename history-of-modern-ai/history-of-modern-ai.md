@@ -4,7 +4,11 @@ History of modern
 
 
 # 주제별 역사
+<<<<<<< Updated upstream
 ![[./AI Timeline.png]]
+=======
+![](AI Timeline.png)
+>>>>>>> Stashed changes
 - 같은 주제의식을 공유하는 연구는 같은 색 테두리로 표현되어 있다.
 - 첫 번째 겨울
 	러닝 알고리즘의 부족. 신경망에 적절한 가중치를 부여하기 어려웠다.
@@ -145,7 +149,7 @@ Boltzmann machine
 
 ## 1984 | 강화학습: TD learning
 Bellman Equation
-![[Bellman Eq.png]]
+![](Bellman Eq.png)
 - Neuro Science 분야에서 reward에 대해서 다룰때 TD-error에 대한 개념을 많이 다룬다.
 - 이후 저서: Reinforcement Learning. An introduction
 - Q-learning

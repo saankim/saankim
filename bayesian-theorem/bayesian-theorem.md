@@ -7,13 +7,13 @@ Bayesian statistics
 ## 베이즈 정리
 둘 이상의 사건에 대한 사전확률과 사후확률간의 관계에 대한 정리
 $$\text{posterior} = \frac{\text{likelihood} \times \text{prior}}{\text{evidence}}$$
-사후확률은 [[../likelihood/likelihood|가능도]](=우도)와 사전확률의 곱을 증거확률로 나눈 값이다. 실제 문제에서 ‘증거확률과 우도’와 ‘사전확률’을 동시에 알기 어렵다는 한계가 있었다. 빅데이터와 컴퓨터 기술의 발달로 사건의 확률을 근사할 수 있게 되면서 활용도가 커지고 있다. 특히 후술하는 Sequential optimization 문제를 풀기 위한 배경 이론으로써 [[../bayesian-optimization/bayesian-optimization|베이지안 최적화]]에 사용된다.
+사후확률은 가능도(=우도)와 사전확률의 곱을 증거확률로 나눈 값이다. 실제 문제에서 ‘증거확률과 우도’와 ‘사전확률’을 동시에 알기 어렵다는 한계가 있었다. 빅데이터와 컴퓨터 기술의 발달로 사건의 확률을 근사할 수 있게 되면서 활용도가 커지고 있다. 특히 후술하는 Sequential optimization 문제를 풀기 위한 배경 이론으로써 베이지안 최적화에 사용된다.
 
 베이즈 정리를 두 사건에 대해 수식으로 표현하면 아래와 같다. 두 사건에 대한 식이 가장 많이 쓰인다.
 $$
 P(B|A) = \frac{P(A|B) \times P(B)}{P(A)}
 $$
-![[Bayesian theorem.png]]
+![](Bayesian theorem.png)
 
 베이즈 정리를 $n$개의사건에 대해 수학적으로 일반화 할 수 있다. 표본공간 $S$를 사건들 $A_1, A_2, ... , A_n$이 분할할 때, 사건 $B \neq \emptyset$ 에 대한 $P(B)$는 $P(B)= \sum_{i}^n P(B\cap A_i)$다(확률의 덧셈정리). 이는 다시 $P(B)= \sum_{i}^n P(A_i)P(B|A_i)$와 같다(확률의 곱셈정리). 이런 상황에서 사건 $B$가 일어나는 것을 전제로 한 사건 $A_i$ 의 조건부 확률은 다음과 같이 구할 수 있다.
 $$\displaystyle P(A_i|B)={P(B\cap A_i)\over P(B)}={P(A_i)P(B|A_i)\over {\sum_{i}^n P(A_i)P(B|A_i)}}$$
@@ -68,7 +68,7 @@ Sequential optimization 관점에서, 베이즈 정리는 현재까지의 증거
 
 다음과 같은 Machine learning 알고리즘에서 베이즈 정리가 사용된다.
 - Naive Bayesian
-- [[../bayesian-optimization/bayesian-optimization|베이지안 최적화]]
+- 베이지안 최적화
 - Kriging
 
 
@@ -96,7 +96,7 @@ Machine learning 을 문제와 답을 입력으로 받고 해결책을 출력하
 - https://www.psy.gla.ac.uk/~martinl/Assets/MCMPS/KnillPouget04.pdf
 
 이 필드에서는 특히 O, observation으로 notation 하는게 특징이다.
-![[marginal likelihood.png]]
+![](marginal likelihood.png)
 $P(O)$ 는 $p(\mathbf{X} \mid \alpha)=\int_\theta p(\mathbf{X} \mid \theta) p(\theta \mid \alpha) \mathrm{d} \theta$  에 따라서 계산된다. 식의 상징적인 의미는 모든 가능한 경우에 대한 likelihood, 곧 [marginal likelihood](https://en.wikipedia.org/wiki/Marginal_likelihood)다.
 
 
