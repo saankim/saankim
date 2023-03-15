@@ -62,10 +62,11 @@ Hyperbolic geometry is a non-Euclidean geometry with a constant negative curvatu
 
 ### Hyperbolic 이면
 $$
-\mathbb{H}^{d, K}:=\left\{\mathbf{x} \in \mathbb{R}^{d+1}:\langle\mathbf{x}, \mathbf{x}\rangle_{\mathcal{L}}=-K, x_{0}>0\right\} \quad
+\mathbb{H}^{d, K}:=\left\{\mathbf{x} \in \mathbb{R}^{d+1}:\langle\mathbf{x}, \mathbf{x}\rangle_{\mathcal{L}}=-K, x_0>0\right\}
 $$
+
 $$
-\mathcal{T}_{\mathbf{x}} \mathbb{H}^{d, K}:=\left\{\mathbf{v} \in \mathbb{R}^{d+1}:\langle\mathbf{v},\mathbf{x}\rangle_{\mathcal{L}}=0\right\}
+\mathcal{T}_{\mathbf{x}} \mathbb{H}^{d, K}:=\left\{\mathbf{v} \in \mathbb{R}^{d+1}:\langle\mathbf{v}, \mathbf{x}\rangle_{\mathcal{L}}=0\right\}
 $$
 - $\mathbb{H}^{d, K}$ has negative curvature $-1/K$
     - Minkowski inner product
