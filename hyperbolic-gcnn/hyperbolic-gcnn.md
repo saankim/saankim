@@ -99,7 +99,7 @@ $$
 
 
 ### Proposition
-![Untitled](assets/Untitled%206.png)
+![Untitled](propo3.1.png)
 - 하이퍼볼릭 공간 H위의 한 점 x
 - x를 포함하는 탄젠트 공간 TH 위의 한 벡터 u를 unit-speed  라고 하자
 - unique unit-speed 를 가지는 geodesic 𝛾 가 있다
@@ -122,7 +122,7 @@ H와 TH 사이의 매핑을 위한 추가 커널.
     - 구면에서는 원을 돌아 오면 계속 같은 점이 반복되지만, 쌍곡면에서는 그렇지 않은 성질을 이용
 
 결과적으로는 아래 수식을 얻을 수 있다.
-![Untitled](assets/Untitled%207.png)
+![Untitled](proposition.png)
 
 
 ## Method
@@ -165,9 +165,9 @@ $$\sigma^{\otimes^{K_{\ell-1}, K_{\ell}}}\left(\mathbf{x}^{H}\right)=\exp _{\mat
 
 ## Results
 community structure 가 분명한 곳에서 기존보다 더 뛰어난 성능을 보여줌
-![Untitled](result%20table.png)
+![Untitled](result-table.png)
 
-![Untitled](result%20roc%20auc.png)
+![Untitled](result-roc-auc.png)
 
 
 ## Conclusion

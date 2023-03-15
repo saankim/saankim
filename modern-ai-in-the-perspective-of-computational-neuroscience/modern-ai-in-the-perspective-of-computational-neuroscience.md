@@ -78,7 +78,7 @@ variational autoencoder
 
 GAN은, 비슷한 구조를 가진다.
 그런데 input으로 노이즈 Z를 주고, 이거에서 fake x를 뽑는데, 이 fake x를 discriminator가 real fake 구분하기 어렵게 자꾸 학습한다. 
-![](vae and gan.png)
+![](vae-and-gan.png)
 
 
 Dreamer2
@@ -89,8 +89,8 @@ GNN
 tranductive learning으로 인과관계를 인코딩 가능
 
 
-Contrasive learning
-![](contrastive learning.png)
+Contrastive learning
+![](contrastive-learning.png)
 
 
 총정리

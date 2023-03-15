@@ -3,7 +3,7 @@
 
 
 # 홉필드 네트워크
-![](hopefield network.png)
+![](hopfield-network.png)
 1. Perceptron neuron은 $\pm 1$의 출력을 갖는다.
 2. Fully connected Graph로 뉴런들이 연결되어 있다.
 3. 뉴런간 Weight는 symmetric 하다.
@@ -18,7 +18,7 @@ Hopfield의 연구에 따르면, flipping은 weight 변화를 거쳐 결국 어�
 
 ## 기하적 직관
 위 두 관점을 아우르는 시각화는 다음과 같다. 각각의 minimun이 하나하나의 기억이라고 해석할 수 있겠다.
-![](energy state space.png)
+![](energy-state-space.png)
 
 
 ## 신경과학 관점

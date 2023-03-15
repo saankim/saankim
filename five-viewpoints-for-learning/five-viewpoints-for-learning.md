@@ -30,7 +30,7 @@
 
 ## Model-free vs. Model-based
 강화학습 관점에서, 환경의 transition을 직접 예측할 수 있는 방법을 가지고 있으면 model-based로 볼 수 있다. 특히 RL관점에서는 아래 그림처럼 분류할 수 있다. 주의할 점은 policy는 model이 아니라는 점이다. policy가 아니라 환경에 대한 simulative model을 가지고 있느냐로 구분해야 한다.
-![](RL categories.png)
+![](rl-categories.png)
 
 
 ## Exploitation(pragmatic) vs. Exploration(epistemic)

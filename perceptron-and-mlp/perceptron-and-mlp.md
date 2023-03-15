@@ -59,10 +59,10 @@ MLP의 학습 알고리즘은 단층 퍼셉트론보다 조금 더 복잡하다.
 ### 기하적 직관: 선형 분리
 논리 게이트를 구현하는 입력 두 개의 단층 퍼셉트론을 $(x_{1},x_{2},y)$ 공간 위의 $w_{1}x_{1}+w_{2}x_{2}+b=0$ 평면으로 볼 수 있다. 이때 평면은 전체 공간을 두 공간으로 나눈다. 나눠진 두 평면은 각각 $\sigma$함수에 따라 $y =\begin{cases}1 \\0 \end{cases}$로 매핑되며 이것이 곧 논리 게이트의 기하적 표현이다. 이를 $(x_{1},x_{2})$평면 위에 나타내면 다음과 같다.
 - AND, OR, NAND
-	![](and or nor.png)
+	![](and-or-nor.png)
 - XOR
 polynomial kernel 을 이용하면 퍼셉트론이 XOR 문제를 풀 수 있게 만들 수도 있다.
-![](sigmoid nor.png)
+![](sigmoid-nor.png)
 
 
 
@@ -72,7 +72,7 @@ polynomial kernel 을 이용하면 퍼셉트론이 XOR 문제를 풀 수 있게 
 
 
 # 당시 논문: MCP Model
-![](MCP model.png)
+![](mcp-model.png)
 Neuro Science 에서 Integrate-and-fire model(Lapicque L, 1907)을 수식과 모델로 만든 것과도 같다.
 재 
 

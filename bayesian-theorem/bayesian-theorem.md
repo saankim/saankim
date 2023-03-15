@@ -13,7 +13,7 @@ $$\text{posterior} = \frac{\text{likelihood} \times \text{prior}}{\text{evidence
 $$
 P(B|A) = \frac{P(A|B) \times P(B)}{P(A)}
 $$
-![](Bayesian theorem.png)
+![](bayesian-theorem.png)
 
 베이즈 정리를 $n$개의사건에 대해 수학적으로 일반화 할 수 있다. 표본공간 $S$를 사건들 $A_1, A_2, ... , A_n$이 분할할 때, 사건 $B \neq \emptyset$ 에 대한 $P(B)$는 $P(B)= \sum_{i}^n P(B\cap A_i)$다(확률의 덧셈정리). 이는 다시 $P(B)= \sum_{i}^n P(A_i)P(B|A_i)$와 같다(확률의 곱셈정리). 이런 상황에서 사건 $B$가 일어나는 것을 전제로 한 사건 $A_i$ 의 조건부 확률은 다음과 같이 구할 수 있다.
 $$\displaystyle P(A_i|B)={P(B\cap A_i)\over P(B)}={P(A_i)P(B|A_i)\over {\sum_{i}^n P(A_i)P(B|A_i)}}$$
@@ -96,7 +96,7 @@ Machine learning 을 문제와 답을 입력으로 받고 해결책을 출력하
 - https://www.psy.gla.ac.uk/~martinl/Assets/MCMPS/KnillPouget04.pdf
 
 이 필드에서는 특히 O, observation으로 notation 하는게 특징이다.
-![](marginal likelihood.png)
+![](marginal-likelihood.png)
 $P(O)$ 는 $p(\mathbf{X} \mid \alpha)=\int_\theta p(\mathbf{X} \mid \theta) p(\theta \mid \alpha) \mathrm{d} \theta$  에 따라서 계산된다. 식의 상징적인 의미는 모든 가능한 경우에 대한 likelihood, 곧 [marginal likelihood](https://en.wikipedia.org/wiki/Marginal_likelihood)다.
 
 

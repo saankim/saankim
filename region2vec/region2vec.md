@@ -106,7 +106,7 @@ Bottom-up 방식으로 가장 인접한 cluster로 merge 해 들어간다. 이�
 - embedded feature vector의 거리 
 - spatial 인접 여부
 
-![](Algorithm.png)
+![](algorithm.png)
 
 ![](workflow.png)
 
@@ -150,7 +150,7 @@ $$
 
 
 ## 5. Results
-![](result table.png)
+![](result-table.png)
 - Intra-inter flow ratio
 	- Louvain is the best
 	- Region2Vec is second
