@@ -3,7 +3,6 @@ Bayesian statistics
 
 베이지안 통계학은 베이즈 정리에 따라 사전확률과 사후확률의 관계로 통계적 추론을 수행하는 방법이다.
 
-
 ## 베이즈 정리
 둘 이상의 사건에 대한 사전확률과 사후확률간의 관계에 대한 정리
 $$\text{posterior} = \frac{\text{likelihood} \times \text{prior}}{\text{evidence}}$$
