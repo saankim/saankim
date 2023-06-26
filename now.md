@@ -1,1 +1,1 @@
-- https://drive.google.com/file/d/1NOopfGp-AVRaf2jQtkwWJjfy0VLjbWbL/view?usp=sharing
+- [1일 차 실습](https://drive.google.com/file/d/1NOopfGp-AVRaf2jQtkwWJjfy0VLjbWbL/view?usp=sharing)
