@@ -9,4 +9,4 @@
 
 
 ## Links
-- [Blog or note](https://saankim0.notion.site)
+- [Craft.me](https://saankim.craft.me)
