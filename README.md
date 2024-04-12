@@ -10,7 +10,7 @@
 - Contemporary Art
 
 
-## Doing
+## Working on
 - Writing Lyrics
 - Graph Deep Learning
 - Structural Bioscience
