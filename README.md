@@ -28,6 +28,6 @@
 
 
 ## In
-- Sungkyunkwan University, Department of Computing
+- Sungkyunkwan University, Department of Computing. Ph.D. Coursework.
 - Research Group in KIAS, Korea Institute for Advanced Study
 - Mensa Korea
