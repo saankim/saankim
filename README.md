@@ -6,12 +6,14 @@
 - [Craft.me](https://saankim.craft.me)
 
 ## Interests
+- Contemporary Art
 - Emergent Property of Graph
 - Brain or Computational Neuroscience
 - Cheminformatics
 - Quantum Computing
 
 ## Doing
+- Writing Lyrics
 - Graph Deep Learning
 - Structural Bioscience
 - Computational Neuroscience
