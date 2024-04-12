@@ -3,11 +3,12 @@
 - [Craft.me](https://saankim.craft.me)
 
 ## Interests
-- Contemporary Art
 - Emergent Property of Graph
 - Brain or Computational Neuroscience
 - Cheminformatics
 - Quantum Computing
+- Contemporary Art
+
 
 ## Doing
 - Writing Lyrics
@@ -18,7 +19,15 @@
 - Python
 - Cheminformatics
 
+
 ## Done
 - Golang
 - Chemistry
 - Bayesian Optimization
+- A startup company
+
+
+## In
+- Sungkyunkwan University, Department of Computing
+- Research Group in KIAS, Korea Institute for Advanced Study
+- Mensa Korea
