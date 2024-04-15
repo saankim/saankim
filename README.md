@@ -8,7 +8,7 @@ F[h] (t) \equiv \int_{-\infty}^{\infty} e^{-2 \pi i t x} h(x) \mathrm{d} x
 $$
 
 ## Interests
-- Emergent Property of Graph
+- Emergent Ability of Graph
 - Brain or Computational Neuroscience
 - Quantum Computing
 - Contemporary Art
