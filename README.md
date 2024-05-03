@@ -1,40 +1,35 @@
-✉️ <contact@saan.kim><br/>
-🔗 [LinkedIn](https://www.linkedin.com/in/saankim/)<br/>
-🏛️ [Google Scholar](https://scholar.google.com/citations?user=43fiNaAAAAAJ&hl=ko)<br/>
-🎙️ [Craft.me](https://saankim.craft.me)<br/>
+Hello, I'm Saan Kim!
+✉️ <contact@saan.kim>
+🔗 [LinkedIn](https://www.linkedin.com/in/saankim/)
+🏛️ [Google Scholar](https://scholar.google.com/citations?user=43fiNaAAAAAJ&hl=ko)
+🎙️ [Craft.me](https://saankim.craft.me)
 
 $$
 F[h] (t) \equiv \int_{-\infty}^{\infty} e^{-2 \pi i t x} h(x) \mathrm{d} x
 $$
 
 ## Interests
-- Emergent Ability of Graph
-- Brain or Computational Neuroscience
-- Quantum Computing
+- Application of Graph Theory to Biosciences
 - Contemporary Art
 
+## Currently Working On
+- Modern Rock Lyric Writing
+- Echo State Properties in Graph Deep Learning
+- Protein-Ligand Interaction Problems in Structural Bioscience
+- Forward-Propagating Learning Algorithms in Computational Neuroscience
+- Bayesian Optimization in Machine Learning
+- Python Deep Learning: [PyTorch](https://www.pytorch.org), [DGL](https://www.dgl.ai), [MLX](https://github.com/ml-explore/mlx)
 
-## Working on
-- 🎵 Writing Lyrics
-- 🕸️ Graph Deep Learning
-- 🧬 Structural Bioscience
-- 🧠 Computational Neuroscience
-- 🤖 Machine Learning
-- 🐍 Python
-
-
-## Done
+## Previous Experience
 - Golang
-- Chemistry
-- Cheminformatics
+- Chemistry and Cheminformatics
 - Bayesian Optimization
-- A startup company
+- Founding a Startup
 
-
-## In
-- Sungkyunkwan University, Department of Computing. Ph.D. Coursework.
-- Protein Interaction Research Group in KIAS, Korea Institute for Advanced Study
-- Mensa Korea
+## Academia
+- Ph.D. Coursework in Department of Computing, Sungkyunkwan University
+- Protein Folding/Interaction Research Group, Korea Institute for Advanced Study (KIAS)
+- Member of Mensa, Korea
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
