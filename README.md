@@ -17,7 +17,7 @@ $$
 - Echo State Properties in Graph Deep Learning
 - Protein-Ligand Interaction Problems in Structural Bioscience
 - Forward-Propagating Learning Algorithms in Computational Neuroscience
-- Bayesian Optimization in Machine Learning
+- Bayesian Optimization in Drug Industry
 - Python Deep Learning: [PyTorch](https://www.pytorch.org), [DGL](https://www.dgl.ai), [MLX](https://github.com/ml-explore/mlx)
 
 ## Previous Experience
