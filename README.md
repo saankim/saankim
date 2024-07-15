@@ -2,7 +2,7 @@ Hello, I'm Saan Kim!<br/>
 ✉️ <contact@saan.kim><br/>
 🔗 [LinkedIn](https://www.linkedin.com/in/saankim/)<br/>
 🏛️ [Google Scholar](https://scholar.google.com/citations?user=43fiNaAAAAAJ&hl=ko)<br/>
-🎙️ [Craft.me](https://saankim.craft.me)<br/>
+🎙️ [Notion Blog](https://san-kim.notion.site)<br/>
 
 $$
 F[h] (t) \equiv \int_{-\infty}^{\infty} e^{-2 \pi i t x} h(x) \mathrm{d} x
