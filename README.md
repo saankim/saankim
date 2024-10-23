@@ -4,12 +4,10 @@ Hello, I'm Saan Kim!<br/>
 🏛️ [Google Scholar](https://scholar.google.com/citations?user=43fiNaAAAAAJ&hl=ko)<br/>
 🎙️ [Notion Blog](https://san-kim.notion.site)<br/>
 
-$$
-F[h] (t) \equiv \int_{-\infty}^{\infty} e^{-2 \pi i t x} h(x) \mathrm{d} x
-$$
+$$F[h] (t) \equiv \int_{-\infty}^{\infty} e^{-2 \pi i t x} h(x) \mathrm{d} x$$
 
 ## Interests
-- Application of Graph Theory to Biosciences
+- Application of Graph Theory to Proteomics and Physical Chemistry
 - Contemporary Art
 
 ## Currently Working On
@@ -18,7 +16,7 @@ $$
 - Protein-Ligand Interaction Problems in Structural Bioscience
 - Forward-Propagating Learning Algorithms in Computational Neuroscience
 - Bayesian Optimization in Drug Industry
-- Python Deep Learning: [PyTorch](https://www.pytorch.org), [DGL](https://www.dgl.ai), [MLX](https://github.com/ml-explore/mlx)
+- Python Deep Learning: [PyTorch](https://www.pytorch.org), [MLX](https://github.com/ml-explore/mlx)
 
 ## Previous Experience
 - Golang
