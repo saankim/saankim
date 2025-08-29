@@ -14,21 +14,23 @@
         border: 0
     }
 
-    /* 상단 오른쪽 워터마크 영역 가리기 */
+    /* 오른쪽-위 전체를 넉넉히 덮는 마스크 */
     .m {
         position: fixed;
-        top: calc(env(safe-area-inset-top, 0px) + 8px);
-        right: calc(env(safe-area-inset-right, 0px) + 8px);
-        width: clamp(170px, 22vw, 280px);
-        height: clamp(48px, 8vh, 72px);
+        top: 0;
+        right: 0;
+        /* 상단 새는 문제 방지 */
+        width: clamp(240px, 26vw, 420px);
+        /* 버튼+… 메뉴까지 커버 */
+        height: clamp(72px, 12vh, 120px);
         background: #fff;
-        border-radius: 12px;
-        z-index: 2
+        z-index: 2;
+        border-radius: 12px 0 0 12px
     }
 
     @media(prefers-color-scheme:dark) {
         .m {
-            background: #111
+            background: rgb(19, 20, 21)
         }
     }
 </style>
